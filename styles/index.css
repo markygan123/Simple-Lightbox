@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.grid-gallery {
+	display: grid;
+	grid-template-columns: repeat(3, 300px);
+	/*place-content: center center;*/
+	justify-content: center;
+	align-content: center;
+	grid-gap: 10px;
+	margin: 15px 0;
+	height: 100%;
+}
+
+.grid-gallery img {
+	height: 300px;
+	width: 300px;
+	cursor: pointer;
+}
+
+#lightbox {
+	position: fixed;
+	z-index: 500;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .8);
+	display: none;
+}
+
+#lightbox.active {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#lightbox img {
+	max-width: 90%;
+	max-height: 80%;
+	padding: 4px;
+	background-color: #000;
+	border: 2px solid #fff;
+}
