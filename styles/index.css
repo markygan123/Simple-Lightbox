@@ -47,3 +47,14 @@ body {
 	background-color: #000;
 	border: 2px solid #fff;
 }
+
+@media (min-width: 1367px) {
+	body {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+	}
+
+	
+}
