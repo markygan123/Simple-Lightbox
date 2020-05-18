@@ -6,6 +6,10 @@
 
 body {
 	background-color: #e0e0e0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
 }
 
 .grid-gallery {
@@ -50,11 +54,8 @@ body {
 
 @media (min-width: 1367px) {
 	body {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		height: 100vh;
+		
 	}
 
-	
+
 }
