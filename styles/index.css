@@ -53,7 +53,7 @@ body {
 
 @media (min-width: 1367px) {
 	.grid-gallery {
-		grid-gap: 20px 120px;
+		grid-gap: 25px 120px;
 	}
 
 	.grid-gallery img {
